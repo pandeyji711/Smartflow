@@ -2,14 +2,14 @@
  <img height=200px src="./traffic-signal.jpg" alt="Traffic Signal Timer">
 </p>
 
-<h1 align="center">Adaptive Traffic Signal Timer</h1>
+<h1 align="center">SmartFlow</h1>
 
 <div align="center">
 
 [![Python version](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
 [![License: Apache 2](https://img.shields.io/badge/License-Apache-yellow.svg)](https://www.apache.org/licenses/LICENSE-2.0)
 
-<h4>This Adaptive Traffic Signal Timer uses live images from the cameras at traffic junctions for traffic density calculation using YOLO object detection and sets the signal timers accordingly, thus reducing the traffic congestion on roads, providing faster transit to people, and reducing fuel consumption.</h4>
+<h4>This SmartFlow uses live images from the cameras at traffic junctions for traffic density calculation using YOLO object detection and sets the signal timers accordingly, thus reducing the traffic congestion on roads, providing faster transit to people, and reducing fuel consumption.</h4>
 
 </div>
 
@@ -33,7 +33,6 @@ This project can be broken down into 3 modules:
 
 3. `Simulation Module` - A simulation is developed from scratch using [Pygame](https://www.pygame.org/news) library to simulate traffic signals and vehicles moving across a traffic intersection.
 
-Read more about object detection model used, working of the algorithm, and development of simulation [here](./Adaptive_Traffic_Signal_Timer_Implementation_Details.pdf).
 
 ------------------------------------------
 ### Demo
@@ -62,8 +61,6 @@ Read more about object detection model used, working of the algorithm, and devel
 ### Installation
 
 * Step I: Clone the Repository
-```sh
-      $ git clone https://github.com/mihir-m-gandhi/Adaptive-Traffic-Signal-Timer
 ```
 
 * Step II: Download the weights file from [here](https://drive.google.com/file/d/1flTehMwmGg-PMEeQCsDS2VWRLGzV6Wdo/view?usp=sharing) and place it in the Adaptive-Traffic-Signal-Timer/Code/YOLO/darkflow/bin directory
@@ -86,26 +83,12 @@ Read more about object detection model used, working of the algorithm, and devel
 ```
 
 ------------------------------------------
-### Dissemination
-
-* This project was showcased at a national level project competition organized by [Government Polytechnic Mumbai](http://www.gpmumbai.ac.in/). View our presentation video [here](https://youtu.be/OssY5pzOyo0).
-
-* Our paper based on this project was presented at 5th IEEE International Conference on Recent Advances and Innovations in Engineering - [ICRAIE 2020](http://www.icraie.poornima.org/) and published in IEEE Xplore. View the paper [here](https://ieeexplore.ieee.org/document/9358334).
-
-------------------------------------------
 ### Contributors
 
-Mihir Gandhi - [mihir-m-gandhi](https://github.com/mihir-m-gandhi)
+Anurag Pandey
 
-Devansh Solanki - [devanshslnk](https://github.com/devanshslnk/)
+Atul Yadav
 
-Rutwij Daptardar - [RDmaverick](https://github.com/RDmaverick)
-
+Ayush Tiwary
 ------------------------------------------
-### Acknowledgement
 
-We would like to extend our sincere thanks to our mentor Mrs. Nirmala Shinde Baloorkar for her kind help and valuable advice. Her support and constant supervision were imperative for the successful completion of this project. We would also like to express our special gratitude and thanks to Mrs. Kavita Kelkar, the subject-matter expert for this project, for her valuable inputs and guidance.   
-
-------------------------------------------
-### License
-This project is licensed under the Apache License 2.0 - see the [LICENSE](./LICENSE) file for details.
